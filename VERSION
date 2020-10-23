@@ -1,0 +1,13 @@
+commit aea4152c514c36e5b31bccf1ffc328bfda2f4191
+Author: Emmett Lalish <elalish@google.com>
+Date:   Fri Oct 23 12:27:37 2020 -0700
+
+    Scroll gating (#1566)
+    
+    * added scroll gating, removed unused eventHandling
+    
+    * no scroll gating for fullscreen elements
+    
+    * added touch-action attribute
+    
+    * clean up lighthouse examples now that scroll works
